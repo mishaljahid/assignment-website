@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Softtech Website</title>
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/60c31c3281.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- Boostrap Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Main css Link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+
+        <!-- Header  start -->
+
+        <nav class="navbar navbar-expand-lg pt-3 pb-2 fixed-top bg-white mb-5" id="nav">
+            <div class="container">
+                <a class="navbar-brand h1 fs-3 fw-bold" href="#">Pixel-<span class=" text-info">Tech</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold px-3" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold px-3" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold px-3" href="">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold px-3" href="#student">Students</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold px-3" href="#about-us">About us</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-info fw-semibold" type="submit">Register</button>
+                </div>
+
+            </div>
+        </nav>
+        <!-- carousel start  -->
+        <div id="carouselExampleInterval" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item overl active" data-bs-interval="10000">
+                    <img src="image/cover/cover-1.png" class="d-block w-100 img-fluid " alt="">
+                    <div
+                        class="row position-absolute top-50 start-50 translate-middle text-center text-white carousel-front-text">
+                        <div class="col-12 ">
+                            <h2 class="display-3 fw-semibold">Get startd digital learning</h2>
+                            <p>“In order to create an engaging learning experience, the role of instructor is optional,
+                                but the role of learner is essential.” - Bernard Bull</p>
+                            <div class="btn btn-primary btn-lg text-white fw-semibold">Get started</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item overl" data-bs-interval="2000">
+                    <img src="image/cover/cover-2.jpg" class="d-block w-100 img-fluid" alt="">
+                    <div
+                        class="row position-absolute top-50 start-50 translate-middle text-center text-white carousel-front-text">
+                        <div class="col-12">
+                            <h2 class="display-3 fw-semibold">Get support on Office Time</h2>
+                            <p>"We don't want to push our ideas on to customers, we simply want to make what they want."
+                                Laura Ashley</p>
+                            <div class="btn btn-primary btn-lg text-white fw-semibold">get started</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item overl">
+                    <img src="image/cover/cover-3.jpg" class="d-block w-100 img-fluid " alt="">
+                    <div
+                        class="row position-absolute top-50 start-50 translate-middle text-center text-white carousel-front-text">
+                        <div class="col-12">
+                            <h2 class="display-3 fw-semibold">Discussion with Us anytime</h2>
+                            <p>we discuse a problem if any students doesn't understand how to start</p>
+                            <div class="btn btn-primary btn-lg text-white fw-semibold">get started</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main start  -->
+    <main>
+        <!-- course start  -->
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6 text-center">
+                    <h1 class="h1 fw-bold">Discover Our Popular
+                        Courses</h1>
+                    <p class="text-muted fs-6"> It is a long established fact that a reader will be distracted by the
+                        readable
+                        content of a page when looking at its layout. </p>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+
+        <section id="courses">
+            <div class="container">
+                <div class="row mb-5 g-5">
+                    <!--courses 1 -->
+                    <div class=" col-lg-6 d-block d-flex">
+                        <div>
+                            <div class="row border rounded">
+                                <div class="col-md-5 col-lg-5 px-0">
+                                    <div class="h-100">
+                                        <img class="h-100 w-100" src="image/course/course-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-lg-7">
+                                    <div class="py-2 px-3">
+                                        <h4 class="fw-semibold">Fundamental Of UI/UX Design</h4>
+                                        <p>The UI/UX Design Specialization brings a design-centric approach to user
+                                            interface and user experience design, and offers practical, skill-based
+                                            instruction centered around a visual communications perspective, rather than
+                                            on one focused on marketing or programming alone. </p>
+                                        <p class="text-primary fw-semibold">Price : 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--courses 2 -->
+                    <div class=" col-lg-6 d-block d-flex">
+                        <div>
+                            <div class="row border rounded">
+                                <div class="col-md-5 col-lg-5 px-0">
+                                    <div class="h-100">
+                                        <img class="h-100 w-100" src="image/course/course-2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-lg-7">
+                                    <div class="py-2 px-3">
+                                        <h4 class="fw-semibold">Javascript basic to Advanced</h4>
+                                        <p>Learn JavaScript with this complete course on the market. From beginner to
+                                            advanced. Join millions of learners from around the world already learning
+                                            on Udemy. Object-Oriented. Over 185,000 Courses. 30-Day Money Guarantee.
+                                            Lifetime Access.REST APIs With Flask. </p>
+                                        <p class="text-primary fw-semibold">Price : 25$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- courses 3 -->
+                    <div class="col-lg-6 d-block d-flex">
+                        <div>
+                            <div class="row border rounded">
+                                <div class="col-md-5 col-lg-5 px-0">
+                                    <div class="h-100">
+                                        <img class="h-100 w-100" src="image/course/course-3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-lg-7">
+                                    <div class="py-2 px-3">
+                                        <h4 class="fw-semibold">Full stack Web development</h4>
+                                        <p>Master your language with lessons, quizzes, and projects designed for
+                                            real-life scenarios. Learn key takeaway skills of full stack engineering
+                                            and earn a certificate of completion. Collaborative Learning. Upgrade
+                                            Your Career Today. Choose Your Skill Path.</p>
+                                        <p class="text-primary fw-semibold">Price : 30$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- courses 4 -->
+                    <div class=" col-lg-6 d-block d-flex">
+                        <div>
+                            <div class="row border rounded">
+                                <div class="col-md-5 col-lg-5 px-0">
+                                    <div class="h-100">
+                                        <img class="h-100 w-100" src="image/course/course-4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-lg-7">
+                                    <div class="py-2 px-3">
+                                        <h4 class="fw-semibold">Digital Marketing Devolopment </h4>
+                                        <p>Learn about Marketing, Branding, SEO, SEM, Social, Analytics & gain Canadian
+                                            experience. Get a Diploma in Digital Marketing Specialist Co-op & become a
+                                            Digital Marketing Associate. Toronto Downtown Campus. Small Class Size.
+                                            Blended Learning. Award-winning school</p>
+                                        <p class="text-primary fw-semibold">Price : 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--courses 5 -->
+                    <div class=" col-lg-6 d-block d-flex">
+                        <div>
+                            <div class="row border rounded">
+                                <div class="col-md-5 col-lg-5 px-0">
+                                    <div class="h-100">
+                                        <img class="h-100 w-100" src="image/course/course-5.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-lg-7">
+                                    <div class="py-2 px-3">
+                                        <h4 class="fw-semibold">Photography Basic rules</h4>
+                                        <p>These include camera handling, composition, effective use of light, file
+                                            management, digital image manipulation and developing a photographic vision.
+                                            Students entering the course must have a digital camera with aperture
+                                            priority, shutter priority, and exposure compensation.</p>
+                                        <p class="text-primary fw-semibold">Price : 20$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--courses 6 -->
+                    <div class=" col-lg-6 d-block d-flex">
+                        <div>
+                            <div class="row border rounded">
+                                <div class="col-md-5 col-lg-5 px-0">
+                                    <div class="h-100">
+                                        <img class="h-100 w-100" src="image/course/course-6.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 col-lg-7">
+                                    <div class="py-2 px-3">
+                                        <h4 class="fw-semibold">Motion Graphics Basic to Advance</h4>
+                                        <p>An introduction to the concepts and techniques in the creation and production
+                                            of motion design animation using Adobe Flash. The course will cover the
+                                            kinds of motion design, concept and story board and computer generation of
+                                            motion design sequences.</p>
+                                        <p class="text-primary fw-semibold">Price : 25$</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center my-4">
+                        <div class="btn btn-info py-2 px-3 fw-semibold text-light">See More courses</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Course end  -->
+        <!-- Institute section start -->
+        <section id="about-us">
+            <div class="container">
+                <div class="row py-5 mt-5">
+                    <div class="col-md-6 col-lg-6 h-100 g-0">
+                        <div>
+                            <img src="image/working.png" alt="" class="img-fluid institute-img">
+                        </div>
+                    </div>
+                    <div class=" col-md-6 col-lg-6 d-lg-flex align-items-center bg-light">
+                        <div class="py-4 px-3">
+                            <h3 class="fw-bold py-2">Explore The Pixel-<span class="text-info">Tech</span> Institute
+                            </h3>
+                            <p class="text-muted">On this Campus. Always exist feel better.In our campus is free from
+                                all types of politics Conversation.</p>
+                            <p class="text-muted">For Lerning we ensure all types of fecilities in our campus. </p>
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-4 g-3">
+                                    <h3 class="fw-bold">3.2k+</h3>
+                                    <p class="fw-semibold text-muted">Online Courses</p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 g-3">
+                                    <h3 class="fw-bold">600+</h3>
+                                    <p class="fw-semibold text-muted">Expert Mamber</p>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-4 g-3">
+                                    <h3 class="fw-bold">1k+</h3>
+                                    <p class="fw-semibold text-muted">Rating & review</p>
+                                </div>
+                            </div>
+                            <div class="btn btn-danger py-2 px-3 mt-3 fw-semibold text-light">Read Mores</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Institute section end  -->
+        <!-- Registration start -->
+        <section>
+            <div class="container bg-primary rounded my-5 p-5">
+                <div class="row p-5">
+                    <div class="col-lg-7">
+                        <div>
+                            <h1 class="text-white">Ready to join?</h1>
+                            <p class="pt-2 text-white">You want to learn better. welcome you enroled and join the
+                                courses immediatly.</p>
+                        </div>
+                        <!-- modal -->
+                    </div>
+                    <div class="col-lg-5 d-flex justify-content-lg-end align-items-center">
+                        <div>
+                            <button type="button" class="btn btn-light text-info fw-semibold py-2 px-3"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Register now
+                            </button>
+                        </div>
+
+                        <!-- Modal start -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-success" id="exampleModalLabel">Get 25% Discount
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput">Your Email address</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <input type="password" class="form-control" id="floatingPassword"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger"
+                                            data-bs-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-primary">Register</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal end  -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Registration end  -->
+
+
+        <!-- Student part start  -->
+        <section id="student">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-3"></div>
+
+                    <!--title start -->
+                    <div class="col-lg-6 text-center">
+                        <h1 class="fw-semibold">Meet Our Successfull Students</h1>
+                        <p>Hear about us from our successfull students</p>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+
+                <div class="row pb-5">
+                    <!-- title end  -->
+
+                    <!--student 1 -->
+                    <div class="col-sm-6 col-md-6 col-lg-3 g-3">
+                        <div class="card">
+                            <img src="image/student/student-1.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Mohammad Jahid</h5>
+                                <p class="card-text text-muted">Font End Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--student 2 -->
+                    <div class="col-sm-6 col-md-6 col-lg-3 g-3">
+                        <div class="card">
+                            <img src="image/student/student-2.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Arshiya Rahman Oishe</h5>
+                                <p class="card-text text-muted">UX/UI Designer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- student 3 -->
+                    <div class="col-sm-6 col-md-6 col-lg-3 g-3">
+                        <div class="card">
+                            <img src="image/student/student-3.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Jahidul Islam Mishal</h5>
+                                <p class="card-text text-muted">Back End Devoloper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- student 4 -->
+                    <div class="col-sm-6 col-md-6 col-lg-3 g-3">
+                        <div class="card">
+                            <img src="image/student/student-4.png" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Hafsa Rahman Mimu</h5>
+                                <p class="card-text text-muted">Motion Graphics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center pb-5">
+                        <div class="btn btn-primary py-2 px-3 text-white fw-semibold">View All</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--student part end  -->
+
+        <!-- Freequently asked question part  -->
+        <section>
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-2"></div>
+
+                    <!-- Question part title  -->
+                    <div class="col-lg-8 text-center ">
+                        <h1 class="fw-semibold">Frequently Asked Questions</h1>
+                        <p class="pt-3">Some common question we get from user. bellow the answer.
+                        </p>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+
+
+                <!-- Accordion part start -->
+                <div class="row mb-5">
+                    <div class="col-md-2 col-lg-2"></div>
+                    <div class="col-md-8 col-lg-8">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                            <!-- Question 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        What is the difference between flexbox and grid?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        This means Flexbox can work on either row or columns at a time, but Grids can
+                                        work on both. Flexbox, gives you more flexibility while working on either
+                                        element (row or column). HTML markup and CSS will be easy to manage in this type
+                                        of scenario.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Question 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        What is the difference between Bootstrap and Tailwind CSS?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        The significant difference between Tailwind CSS and Bootstrap is that Tailwind
+                                        offers predesigned widgets to build a site from scratch with fast UI
+                                        development, while Bootstrap comes with a set of pre-styled responsive,
+                                        mobile-first components that possess a definite UI kit
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Question 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        What is CSS box model?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        In CSS, the term "box model" is used when talking about design and layout.
+                                        The CSS box model is essentially a box that wraps around every HTML element. It
+                                        consists of: margins, borders, padding, and the actual content.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Question 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                        What is semantic tag?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">
+                                        The HTML semantics refers to the tags that provide meaning to an HTML page
+                                        rather than just presentation. It makes HTML more comprehensible by better
+                                        defining the different sections and layout of web pages.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-lg-2"></div>
+                    </div>
+                </div>
+        </section>
+        <!-- Accordion part end  -->
+        <!-- Companies Part  -->
+        <section class="d-none d-lg-block">
+            <div class="container pt-5 my-5">
+                <div class="row pb-4">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="fw-bold">Trusted by over 800+ companies</h1>
+                    </div>
+                </div>
+                <div class="row pb-5 d-lg-flex align-items-center">
+                    <div class="col-lg-2 gx-5">
+                        <img class="img-fluid" src="image/company/company-1.png" alt="">
+                    </div>
+                    <div class="col-lg-2 gx-5">
+                        <img class="img-fluid" src="image/company/company-2.png" alt="">
+                    </div>
+                    <div class="col-lg-2 gx-5">
+                        <img class="img-fluid" src="image/company/company-3.png" alt="">
+                    </div>
+                    <div class="col-lg-2 gx-5">
+                        <img class="img-fluid" src="image/company/company-4.png" alt="">
+                    </div>
+                    <div class="col-lg-2 gx-5">
+                        <img class="img-fluid" src="image/company/company-5.png" alt="">
+                    </div>
+                    <div class="col-lg-2 gx-5">
+                        <img class="img-fluid" src="image/company/company-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main section end  -->
+    <!-- Footer section  -->
+
+    <footer class="bg-dark py-5">
+        <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-md-3 col-lg-3"></div>
+                <div class="col-md-6 col-lg-6">
+                    <h1>Pixel-<span class="text-info">Tech</span></h1>
+                    <p class="text-muted">#23, House-No: 12, Block: 3, Feni Sadar <br> Feni, Bangladesh</p>
+                    <div class="my-3">
+                        <a href="#" class="text-decoration-none d-inline-block text-white px-2">Privecy
+                            policy</a><a href="#" class="text-decoration-none d-inline-block text-white px-2">terms &
+                            condition</a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100009148481994" target="_blank"
+                            class="text-decoration-none text-white fs-2 p-3"><i class="fa-brands fa-facebook"></i></a>
+
+                        <a href="https://github.com/" target="_blank"
+                            class="text-decoration-none text-white fs-2 p-3"><i class="fa-brands fa-github"></i></a>
+
+                        <a href="https://www.youtube.com/" target="_blank"
+                            class="text-decoration-none text-white fs-2 p-3"><i class="fa-brands fa-youtube"></i></a>
+
+                        <a href="https://www.Linkdin.com/" target="_blank"
+                            class="text-decoration-none text-white fs-2 p-3"> <i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

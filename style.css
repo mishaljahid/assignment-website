@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item img {
+    height: 600px;
+    width: auto;
+    object-fit: cover;
+}
+
+.carousel-front-text {
+    position: relative;
+    z-index: 1;
+}
+
+.overl::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .institute-img {
+        height: 600px;
+    }
+}
